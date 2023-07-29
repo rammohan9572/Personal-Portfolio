@@ -1,0 +1,72 @@
+@media screen and (max-width: 400px) {
+
+  .nav ul li a{
+    font-size: 10px;
+    margin: 1px;
+  }
+  .nav ul li{
+    margin: 10px 10px;
+}
+.Menu{
+  padding-left: 0px;
+}
+.nav{
+  justify-content: left !important;
+}
+  .heroimg{
+    width: 0;
+  }
+    .skill-container{
+        margin: 45px;
+        padding: 25px 30px;
+        width: 80%;
+        border-radius: 17px;
+        background-color: aliceblue;
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px 30px;
+        grid-auto-rows: minmax(100px, auto);
+        
+    }
+    .about .row {
+        display: block;
+        border-radius: 50px;
+        margin: 10px 20px;
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 29px;
+        background-image: linear-gradient(259deg, #F6F6C9, #BAD1C2, #4FA095);
+      }
+      .about .row img {
+        width: 80%;
+        margin-top: 15px;
+        margin-left: 22px;
+        border-radius: 17px;
+      }
+
+      .education .box a {
+        display: block;
+        text-decoration: none;
+        color: #505050;
+      }
+      .education .box {
+        background-color: aliceblue;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        padding: 15px;
+        width: 120%;
+        border-radius: 40px;
+        height: fit-content;
+        /* margin-right: 25px; */
+        background-image: linear-gradient(259deg, #f0def7, #a6deff, #1c3cf1d6);
+      }
+
+      .education .box .college_image img{
+        width: 80%;
+      }
+      .contact_container{
+        display: block;
+    }
+}

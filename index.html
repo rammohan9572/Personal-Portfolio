@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/d738408e79.js" crossorigin="anonymous"></script>
+    
+    <title>My portfolio website</title>
+</head>
+<body>
+    <div class="container">
+        <section class="nav">
+            <ul class="Menu">
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li> <a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </section>
+        <section class="banner" id="home">
+            <div class="bannername">
+                <h1 class = "tagline"> Welcome to my portfolio website</h1>
+                <h2> RAMMOHAN CHOUDHARY</h2>
+                <p> A Passionate Coder and a Web Developer</p>
+            </div>
+            <div class ="Hero">
+                <img class="heroimg" src="./hero.png"></a>
+            </div>
+        </section>
+        <section class="skill" id="skills">
+            <div class="skill-title">Skills</div>
+            <div class="skill-container">
+                <div class="skill-card one"><i class="fa fa-brands fa-java"></i> <br /> JAVA</div>
+                <div class="skill-card two"><i class="fa fa-brands fa-js"></i><br /> javaScript</div>
+                <div class="skill-card three"><i class="fa fa-html5"></i> <br /> HTML5</div>
+                <div class="skill-card four"><i class="fa fa-css3"></i><br /> CSS3</div>
+                <div class="skill-card five"><i class="fa-brands fa-python"></i></br> PYTHON</div>
+                <div class="skill-card six"><i class="fa-brands fa-github"></i></br>GITHUB</div>
+                <div class="skill-card seven"><i class="fa-solid fa-c"></i></br>C++</div>
+                <div class="skill-card eight"><i class="fa-brands fa-google"></i></br>GOOGLE CLOUD PLATFORM</div>
+            </div>
+        </section>
+        <section class="project" id="projects">
+            <div class="projects-title">
+                <i class="fa-solid fa-trophy"></i> projects
+            </div>
+            <div class="proj-body">
+                <div class="proj-tile">
+                    <div class="proj-img">
+                        <img src="text-editor.png" class="text_img" alt="img">
+                    </div>
+                    <div class="proj-dec">
+                        <!-- <p class="proj-title">Text Editor</p> -->
+                        <a href="https://github.com/rammohan9572/Text_editor_project" target="_blank" class="proj-title">
+                            Text Editor
+                        </a>
+                        <p class="decript">
+                            This is a text editor
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="heading"><i class="fa-solid fa-user-graduate"></i> About me</h2>
+            <div class="row">
+                <img src="dp.jpg" alt="">
+                <div class="content">
+                    <h3> I am Rammohan</h3>
+                    <p>Currently pursuing bachelor of technology in computer science and engineering from Asansol</p>
+                    <div class="info-container">
+                        <div class="info">
+                            <p><span> Age: </span>21 </p>
+                            <p><span> College : </span> Asansol Engineering College</p>
+                            <p><span> Email : </span>aec.cse.rammohan@gmail.com </p>
+                            <p><span> Address : </span> vill-pataniya,via-biraul,dist-darbhanga,pin-code-847203 </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <h2> <i class='fas fa-book-reader edu-fa'></i> My Education</h2>
+            <div class="box">
+                <a href="https://www.aecwb.edu.in">
+                    <div class="college_image">
+                        <img src="./1.jpg" alt="" />        
+                    </div>
+                    <div class="collegeContent">
+                        <h3>Asansol Engineering College (AEC) </h3>
+                        <p>Bachelor of Technology <br /> in Computer Science</p>
+                        <h4>2020 - 2024</h4>
+                    </div>
+                    </a>
+            </div>
+        </section>
+        <!-- <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact left">
+                        <h1 class="sub-title">contact Me</h1>
+                        <p>contact@example.com</p>
+                        <p>7903338355</p>
+                        <div class="social-icons">
+                            <a href="https://fackbook.com/"><i class="fab fa-fackbook"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="your Name" required!>
+                            <input type="email" name="email" placeholder="your email" required!>
+                            <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                            <button type="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <section class="contact" id="contact">
+            <div class="contact_container">
+                <div class="details login-box" >
+                    <h1 class="sub-title" style="font-size: 32px;">contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>aec.cse.rammohan@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7903338355</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a class="special-button"href="#" id="sub" onclick="check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Download CV
+                      </a>
+                </div>
+                <div class="myform">
+                    <h2>Contact Me</h2>
+                    <form action="submit">
+                        <input type="text" placeholder="Your Name" aria-colspan="12">
+                        <input type="text" placeholder="Email" aria-colspan="12">
+                        <textarea name="message" id="" cols="12" rows="6"></textarea>
+                        <button type="submit"><span>Submit</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <h1>RAMMOHAN</h1>
+                <p>Copyright 2022. All Rights Reserved</p>
+            </div>
+            <p class="developer">Developed By Rammohan</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
